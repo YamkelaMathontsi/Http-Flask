@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h1>Here Are Your Shopping Items</h1>
+</br>
+<table border="10">
+  <tr><th>UNIT</th><th>Details</th></tr>
+{% for x, y in result.Items(): %)
+  <tr>
+
+  <td>{{x}}</td><td>{{y}}</td>
+
+{%endfor%}
+</table>
+
+</body>
+</html>
